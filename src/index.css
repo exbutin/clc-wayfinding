@@ -1,0 +1,23 @@
+/* Reset default margin and padding */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+/* Set full screen height and width */
+html, body {
+        min-height: 100vh;
+        min-width: 100vw;
+}
+
+/* Apply Bootstrap light preset color */
+body {
+  background-color: #f8f9fa;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+  }

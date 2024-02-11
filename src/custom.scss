@@ -1,0 +1,26 @@
+@import "~bootstrap/scss/functions";
+
+// Define your custom colors
+$primary:       #003366; /* Polar Night Blue */
+$secondary:     #0038A8; /* Aviator Blue */
+$success:       #99edc3; /* Mint Green */
+$info:          rgba(236,241,247,.25);
+$warning:       #e9d502; /* Yellow */
+$danger:        #Ff4757; /* Red */
+$light:         #ECF1F7; /* Light Blue */ 
+$dark:          #63666A; /* Dark Gray */
+
+// Merge your custom colors with the existing theme-colors map
+$theme-colors: (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "success":    $success,
+    "info":       $info,
+    "warning":    $warning,
+    "danger":     $danger,
+    "light":      $light,
+    "dark":       $dark
+);
+
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/bootstrap";
