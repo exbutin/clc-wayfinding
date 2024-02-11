@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/clc-wayfinding/static/css/main.e2b4d23f.css",
+    "main.js": "/clc-wayfinding/static/js/main.21440e68.js",
+    "index.html": "/clc-wayfinding/index.html",
+    "main.e2b4d23f.css.map": "/clc-wayfinding/static/css/main.e2b4d23f.css.map",
+    "main.21440e68.js.map": "/clc-wayfinding/static/js/main.21440e68.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2b4d23f.css",
+    "static/js/main.21440e68.js"
+  ]
+}
